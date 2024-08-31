@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Weather Forecast App</h1>
+            <div class="search-container">
+                <input type="text" id="cityInput" placeholder="Enter city name" />
+                <button id="searchButton">Search</button>
+            </div>
+        </header>
+        
+        <section id="currentWeather">
+            <h2>Current Weather</h2>
+            <div id="currentWeatherDetails">
+                <p id="weatherCondition"></p>
+                <p id="temperature"></p>
+                <p id="humidity"></p>
+                <p id="windSpeed"></p>
+                <p id="dateTime"></p>
+            </div>
+        </section>
+
+        <section id="forecast">
+            <h2>Next 5-Day Forecast</h2>
+            <table id="forecastTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Condition</th>
+                        <th>Temperature (°C)</th>
+                        <th>Humidity (%)</th>
+                        <th>Wind Speed (m/s)</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                </tbody>
+            </table>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
